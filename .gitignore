@@ -1,0 +1,43 @@
+# Data files (too large for GitHub)
+dirty_data.csv
+**/data/*.csv
+**/data/**/*.csv
+
+# Preprocessed data
+**/preprocessed/
+**/*.npy
+
+# Model files (can be large)
+**/models/*.pkl
+**/models/*.joblib
+**/models/*.h5
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
